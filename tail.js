@@ -1,7 +1,7 @@
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 
 const tail = function(array) {
-  return array.shift();
+  return array.slice(1);
 };
 
 tail(words);
