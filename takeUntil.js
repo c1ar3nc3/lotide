@@ -33,3 +33,5 @@ const eqArrays = function(arr1, arr2) {
 }
 
 assertArraysEqual(takeUntil([1, 2, 5, 7, 2, -1, 2, 4, 5], -1), [1, 2, 5, 7, 2])
+
+module.exports = takeUntil;

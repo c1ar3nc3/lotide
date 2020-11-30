@@ -20,3 +20,5 @@ const countLetters = function(word) {
 };
 
 console.log(countLetters("I really hope this works"));
+
+module.exports = countLetters;
